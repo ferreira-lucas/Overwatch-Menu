@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lucas.ferreira.overwatchmenu.MainActivity"
+    android:background="@color/black">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ma_btn_ana"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_marginRight="-3dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/ana" />
+
+                <Button
+                    android:id="@+id/ma_btn_bastion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_marginLeft="-3dp"
+                    android:layout_marginRight="-3dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/bastion" />
+
+                <Button
+                    android:id="@+id/ma_btn_dva"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_marginLeft="-3dp"
+                    android:layout_marginRight="-3dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/dva" />
+
+                <Button
+                    android:id="@+id/ma_btn_doomfist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_marginLeft="-3dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/doomfist" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ma_btn_genji"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/genji" />
+
+                <Button
+                    android:id="@+id/ma_btn_hanzo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_marginLeft="-3dp"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/hanzo" />
+
+                <Button
+                    android:id="@+id/ma_btn_junkrat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_marginLeft="-3dp"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/junkrat" />
+
+                <Button
+                    android:id="@+id/ma_btn_lucio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_marginLeft="-3dp"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/lucio" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ma_btn_mccree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/mccree" />
+
+                <Button
+                    android:id="@+id/ma_btn_mei"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_marginLeft="-3dp"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/mei" />
+
+                <Button
+                    android:id="@+id/ma_btn_mercy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_marginLeft="-3dp"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/mercy" />
+
+                <Button
+                    android:id="@+id/ma_btn_moira"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_marginLeft="-3dp"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/moira" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ma_btn_orisa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/orisa" />
+
+                <Button
+                    android:id="@+id/ma_btn_pharah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_marginLeft="-3dp"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/pharah" />
+
+                <Button
+                    android:id="@+id/ma_btn_reaper"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_marginLeft="-3dp"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/reaper" />
+
+                <Button
+                    android:id="@+id/ma_btn_reinhardt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_marginLeft="-3dp"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/reinhardt" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ma_btn_roadhog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/roadhog" />
+
+                <Button
+                    android:id="@+id/ma_btn_soldado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_marginLeft="-3dp"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/soldado" />
+
+                <Button
+                    android:id="@+id/ma_btn_sombra"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_marginLeft="-3dp"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/sombra" />
+
+                <Button
+                    android:id="@+id/ma_btn_symmetra"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_marginLeft="-3dp"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/symmetra" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ma_btn_torbjorn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/torbjorn" />
+
+                <Button
+                    android:id="@+id/ma_btn_tracer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_marginLeft="-3dp"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/tracer" />
+
+                <Button
+                    android:id="@+id/ma_btn_widowmaker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-3dp"
+                    android:layout_marginLeft="-3dp"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/widowmaker" />
+
+                <Button
+                    android:id="@+id/ma_btn_winston"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-3dp"
+                    android:layout_marginTop="-3dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/winston" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ma_btn_zarya"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginTop="-6dp"
+                    android:background="@drawable/zarya" />
+
+                <Button
+                    android:id="@+id/ma_btn_zenyatta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-3dp"
+                    android:layout_marginTop="-6dp"
+                    android:background="@drawable/zenyatta" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
